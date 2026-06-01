@@ -1,58 +1,49 @@
 # Edge AI for Post-Harvest Loss Reduction
 
 ## Overview
+A computer vision solution for fruit quality classification using MobileNetV2 and transfer learning.
 
-* Developed a fruit quality detection system using Deep Learning and Computer Vision.
-* Aimed to identify good and defective fruits to help reduce post-harvest agricultural losses.
-* Built using Transfer Learning with MobileNetV2.
+## Problem Statement
+Post-harvest losses in agriculture can be reduced through automated quality assessment of fruits before storage and distribution.
 
 ## Features
-
-* Fruit quality classification
-* Defect detection from images
-* Image preprocessing and augmentation
-* Lightweight model suitable for edge deployment
-
-## Dataset
-
-* Kaggle Fruit Quality Dataset
-* Preprocessed and augmented image data for training
-
-## Model
-
-* MobileNetV2 (Transfer Learning)
-* TensorFlow / Keras implementation
-* Trained and evaluated on fruit quality images
+- Fruit quality classification
+- Transfer learning with MobileNetV2
+- Data augmentation
+- Image preprocessing
+- Lightweight model design
 
 ## Tech Stack
+- Python
+- TensorFlow/Keras
+- OpenCV
+- MobileNetV2
 
-* Python
-* TensorFlow / Keras
-* OpenCV
-* NumPy
-* Pandas
-* Matplotlib
+## Dataset
+- Fruit quality dataset from Kaggle
 
-## Workflow
-
+## Project Workflow
 1. Data Collection
-2. Data Preprocessing
-3. Image Augmentation
-4. MobileNetV2 Model Training
-5. Model Evaluation
-6. Fruit Quality Prediction
+2. Image Preprocessing
+3. Data Augmentation
+4. Transfer Learning
+5. Model Training
+6. Evaluation
 
 ## Results
+- Successfully classified fruit quality categories
+- Developed a lightweight model suitable for edge deployment exploration
 
-* Successfully trained a MobileNetV2-based fruit quality classifier.
-* Demonstrated automated quality assessment using image-based classification.
+## Future Improvements
+- TensorFlow Lite conversion
+- Raspberry Pi deployment
+- Real-time camera integration
 
-## Repository Contents
-
-* `Edge_AI_Post_Harvest_Loss_Reduction.ipynb` – Complete project notebook
-* Dataset preprocessing and model training pipeline
-* Prediction and evaluation code
+## How to Run
+1. Clone repository
+2. Install dependencies
+3. Run notebook
+4. Upload fruit image
 
 ## Author
-
-J. Sreekarnika
+J Sree Karnika
